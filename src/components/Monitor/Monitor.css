@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+/* font-family: 'Chicle', cursive; */
+body {
+    --h2: #F7D000;
+    --h2-size: 50px;
+    --p-size: 25px;
+}
+
+h2, p, a {
+    font-family: 'Chicle', cursive;
+}
+
+/* ===== MONITOR ===== */
+.Monitor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid #7bff00; */
+}
+
+.MPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    /* border: 2px solid #7bff00; */
+}
+
+.MPrincipal h2 {
+    text-transform: uppercase;
+    font-size: 70px;
+    color: var(--h2);
+    margin-bottom: -50px;
+    animation: updown 2s ease-in infinite;
+}
+
+.H2Color {
+    color: white !important;
+}
+
+.MPrincipal img {
+    display: flex;
+    width: auto;
+    max-height: 100%;
+    height: 50%;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(5px) translateX(3px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+/* ===== MONITOR ===== */
+
+/* ===== SecInfo ===== */
+.SectionInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid #7bff00; */
+}
+
+.SectionInfoBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* border: 2px solid #7bff00; */
+}
+
+.SectionInfoBoxesLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid #f8faf6; */
+}
+
+.SectionInfoBoxesLeft h2 {
+    font-size: var(--h2-size);
+    color: var(--h2);
+}
+
+.SectionInfoBoxesLeft a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(0, 162, 255);
+    /* transition: 0.2s ease-in-out; */
+}
+
+.SectionInfoBoxesLeft p {
+    font-size: 25px;
+}
+
+.SectionInfoBoxesLeft a:hover {
+    border: 2px solid #f8faf6;
+    animation: movemove 0.8s ease-in infinite;
+}
+
+.SectionInfoBoxesRight {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.SectionInfoBoxesRight p {
+    font-size: 25px;
+}
+
+.SectionInfoBoxesRight img {
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    height: 450px;
+}
+
+@keyframes movemove {
+    0% {
+        transform: translateX(0) rotate(2deg) scale(1.15);
+      }
+      50% {
+        transform: translateX(5px) rotate(2deg) scale(1.15);
+      }
+      100% {
+        transform: translateX(0) rotate(2deg) scale(1.15);
+      }
+}
+/* ===== SecInfo ===== */
+
+/* ===== Tokenomic ===== */
+
+.TokenomicS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid #f8faf6; */
+}
+
+.TokenomicBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 80%;
+    /* border: 2px solid #76eb02; */
+}
+
+.TokenomicImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.TokenomicImage img {
+    display: flex;
+    max-width: 100%;
+    width: auto;
+    height: 500px;
+}
+
+.TokenomicInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.TokenomicInfo h2 {
+    color: var(--h2);
+    font-size: var(--h2-size);
+    margin-bottom: -26px;
+}
+
+.TokenomicInfo p {
+    font-size: var(--p-size);
+}
+
+/* ===== Tokenomic ===== */
+
+/* ===== Supply ===== */
+
+.SupplySection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.SupplyInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* border: 2px solid #76eb02; */
+}
+
+.SupplyText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.SupplyText h2 {
+    color: var(--h2);
+    font-size: var(--h2-size);
+    margin-bottom: -10px;
+}
+
+.SupplyText p {
+    font-size: var(--p-size);
+    margin-bottom: -10px;
+}
+
+.SupplyImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.SupplyImage img {
+    display: flex;
+    max-width: 100%;
+    width: auto;
+    height: 600px;
+}
+
+/* ===== Supply ===== */
+
+/* ===== Disclaimer ===== */
+
+.DisclaimerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid #76eb02; */
+}
+
+.DisclaimerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* border: 2px solid #edf0ea; */
+}
+
+.DisclaimerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.DisclaimerInfo img {
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    max-width: 100%;
+    width: auto;
+    height: 600px;
+    filter: blur(6px);
+}
+
+.DisclaimerInfo h2 {
+    color: var(--h2);
+    font-size: 78px;
+    margin-bottom: -10px;
+}
+
+.DisclaimerBox p {
+    font-size: 40px;
+    text-align: justify;
+}
+
+/* ===== Disclaimer ===== */
+
+/* ===== Socials ===== */
+
+.Socials {
+    position: fixed;
+    display: flex;
+    bottom: 20px;
+    right: 20px;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    /* border: 2px solid #edf0ea; */
+}
+
+.Buttons img {
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    height: 35px;
+}
+
+.Buttons a {
+    text-decoration: none;
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+
+.Buttons a:hover {
+    color: #1DA1F2;
+    transform: scale(1.15) rotate(3deg);
+}
+
+
+/* ===== Socials ===== */
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 1500px) {
+    .SectionInfoBoxesRight img {
+        height: 400px;
+    }
+    .TokenomicImage img {
+        height: 400px;
+    }
+    .SupplyImage img{
+        height: 400px;
+    }
+    .TokenomicInfo h2 {
+        font-size: 40px;
+    }
+    .TokenomicInfo p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .SectionInfoBoxesRight img {
+        height: 350px;
+    }
+    .TokenomicImage img {
+        height: 300px;
+    }
+    .SupplyImage img{
+        height: 300px;
+    }
+    .SectionInfoBoxes {
+        width: 95%;
+    }
+    .SupplyText h2 {
+        font-size: 40px;
+    }
+    .SupplyText p {
+        font-size: 20px;
+    }
+    .DisclaimerBox {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .SectionInfoBoxesRight img {
+        height: 250px;
+    }
+    .TokenomicImage img {
+        height: 200px;
+    }
+    .SupplyImage img{
+        height: 300px;
+    }
+    .TokenomicBox {
+        width: 98%;
+    }
+    .SectionInfoBoxes {
+        width: 98%;
+    }
+    .SupplyInfo {
+        width: 98%;
+    }
+    .SupplyText h2 {
+        font-size: 35px;
+    }
+    .SupplyText p {
+        font-size: 20px;
+    }
+    .MPrincipal {
+        width: 100%;
+        /* border: 2px solid #7bff00; */
+    }
+    .MPrincipal img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .MPrincipal {
+        width: 100%;
+        /* border: 2px solid #7bff00; */
+    }
+    .MPrincipal img {
+        height: 200px;
+    }
+
+    .MPrincipal h2 {
+        text-align: center;
+    }
+    .SectionInfo {
+        height: 100%;
+    }
+    .SectionInfoBoxes {
+        flex-direction: column;
+    }
+    .SectionInfoBoxesRight img {
+        height: 300px;
+    }
+    .TokenomicBox {
+        flex-direction: column;
+    }
+
+    .TokenomicS {
+        height: 100%;
+    }
+    .SupplySection {
+        height: 100%;
+    }
+    .SupplyInfo {
+        flex-direction: column;
+    }
+    .DisclaimerSection {
+        height: 100%;
+    }
+    .DisclaimerInfo {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .DisclaimerInfo h2 {
+        font-size: 60px;
+    }
+}
+/* ===== Responsive ===== */
