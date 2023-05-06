@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ae75d29.css",
+    "main.js": "/static/js/main.781cd5a9.js",
+    "static/media/Disclaimer.png": "/static/media/Disclaimer.573034134da349d17f62.png",
+    "static/media/Tokenomic.png": "/static/media/Tokenomic.19b2e82183e7e720e9c9.png",
+    "static/media/Info.png": "/static/media/Info.416281c9522558260faa.png",
+    "static/media/Supply.png": "/static/media/Supply.4975c99b624ece826c18.png",
+    "static/media/cateyes.gif": "/static/media/cateyes.fd51669563009d4b714f.gif",
+    "static/media/RayIco.png": "/static/media/RayIco.960cc81b950bbb81d046.png",
+    "index.html": "/index.html",
+    "main.0ae75d29.css.map": "/static/css/main.0ae75d29.css.map",
+    "main.781cd5a9.js.map": "/static/js/main.781cd5a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ae75d29.css",
+    "static/js/main.781cd5a9.js"
+  ]
+}
